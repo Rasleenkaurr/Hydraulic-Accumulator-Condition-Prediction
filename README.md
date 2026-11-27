@@ -88,6 +88,34 @@ The project includes an interactive dashboard with four sections:
 - The dashboard analyses existing data and is not connected to live industrial sensors.
 - Further testing and improvement are needed before practical deployment.
 
+## How to Run the Dashboard
+
+### 1. Clone the repository
+
+```bash
+git clone https://github.com/Rasleenkaurr/Hydraulic-Accumulator-Condition-Prediction.git
+```
+
+### 2. Open the project folder
+
+```bash
+cd Hydraulic-Accumulator-Condition-Prediction
+```
+
+### 3. Install dependencies
+
+```bash
+python -m pip install -r requirements.txt
+```
+
+### 4. Run the Streamlit dashboard
+
+```bash
+python -m streamlit run streamlit_dashboard/app.py
+```
+
+The dashboard will open in your web browser.
+
 ## Acknowledgement
 
 Dataset provided by the UCI Machine Learning Repository.
