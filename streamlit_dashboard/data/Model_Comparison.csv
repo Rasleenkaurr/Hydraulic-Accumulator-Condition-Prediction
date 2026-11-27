@@ -1,0 +1,5 @@
+Model,Accuracy,Macro Precision,Macro Recall,Macro F1
+Dummy Classifier,0.4549,0.1137,0.25,0.1563
+Logistic Regression,0.4932,0.3682,0.3038,0.2499
+Decision Tree,0.5014,0.2496,0.4008,0.2985
+Random Forest,0.138,0.0611,0.0815,0.0694
